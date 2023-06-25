@@ -39,10 +39,10 @@ public class HargaPerGram {
     public static double gramCoklat(){
         return HargaBahan.hargaCoklat / BeratKemasan.kemasanCoklat;
     }
-    public static double gramKrim(){
+    public static double gramKrimVanilla(){
         return HargaBahan.hargaKrimVanilla / BeratKemasan.kemasanKrimVanilla;
     }
-    public static double gramSelai(){
+    public static double gramSelaiRedBean(){
         return HargaBahan.hargaSelaiRedBean / BeratKemasan.kemasanSelaiRedBean;
     }
     public static double gramSosis(){
@@ -51,7 +51,7 @@ public class HargaPerGram {
     public static double gramSmokedBeef(){
         return HargaBahan.hargaSmokedBeef / BeratKemasan.kemasanSmokedBeef;
     }
-    public static double gramBawang(){
+    public static double gramBawangBombay(){
         return HargaBahan.hargaBawangBombay / BeratKemasan.kemasanBawangBombay;
     }
 }
