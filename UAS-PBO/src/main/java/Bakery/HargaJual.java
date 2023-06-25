@@ -8,7 +8,7 @@ package com.mycompany.uas.pbo;
  *
  * @author bangu
  */
-public class HargaJual {
+public abstract class HargaJual {
     // method
     abstract double varian1();
     abstract double varian2();
