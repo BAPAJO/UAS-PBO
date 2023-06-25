@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  * @author Safiira Hashifah
  */
 public class ModalManis extends ResepManis {
-    public void modalAdonan(){
-        return (this.adonanTepungTerigu() * HargaPerGram.gramTepungTerigu()) + (adonanGulaPasir * hargaPerGram.gramGulaPasir) + (adonanButter * hargaPerGram.gramButter) + (adonanRagi * hargaPerGram.gramRagi) + (adonanSusuBubuk * hargaPerGram.gramSusuBubuk) + (adonanSusuCair * hargaPerGram.gramSusuCair) + (adonanTelur * hargaPerGram.gramTelur) + (adonanEsBatu * hargaPerGram.gramEsBatu);
+    public double modalAdonan(){
+        return (this.adonanTepungTerigu() * HargaPerGram.gramTepungTerigu() + (this.adonanGulaPasir()* HargaPerGram.gramGulaPasir()) + (this.adonanButter() * HargaPerGram.gramButter()) + (this.adonanRagi()) * HargaPerGram.gramRagi()) + (this.adonanSusuBubuk() * HargaPerGram.gramSusuBubuk()) + (this.adonanSusuCair() * HargaPerGram.gramSusuCair()) + (this.adonanTelur() * HargaPerGram.gramTelur()) + (this.adonanEsBatu() * HargaPerGram.gramEsBatu());
     }
 }

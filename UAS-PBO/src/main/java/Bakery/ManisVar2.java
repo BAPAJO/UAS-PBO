@@ -4,17 +4,19 @@
  */
 package Bakery;
 
+import Bahan.HargaPerGram;
+
 /**
  *
  * @author Safiira Hashifah
  */
 public class ManisVar2 {
     //attribute
-    public double redBean = 10;
+    public double selairedBean = 10;
     public double krimVanilla = 5;
     
     //methods
-    public void modalVar2(){
-        return (this.redBean * hargaPerGram.gramRedBean) + (this.krimVanilla * hargaPerGram.gramKrimVanilla) + modalAdonan();
+    public double modalVar2(){
+        return (this.selairedBean * HargaPerGram.gramSelai()) + (this.krimVanilla * HargaPerGram.gramKrimVanilla) + this.modalAdonan();
     }
 }

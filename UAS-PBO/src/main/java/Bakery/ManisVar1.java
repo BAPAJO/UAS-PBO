@@ -9,13 +9,13 @@ import Bahan.HargaPerGram;
  *
  * @author Safiira Hashifah
  */
-public class ManisVar1 implements Bahan {
+public class ManisVar1 extends ResepManis {
     //attributes
     public double keju = 5;
     public double coklat = 10;
     
     //methods
-    public void modalVar1(){
-        return (this.keju * HargaPerGram.gramKeju()) + (this.coklat * HargaPerGram.gramCoklat()) + modalAdonan();
+    public double modalVar1(){
+        return (this.keju * HargaPerGram.gramKeju()) + (this.coklat * HargaPerGram.gramCoklat() + this.modalAdonan());
     }
 }

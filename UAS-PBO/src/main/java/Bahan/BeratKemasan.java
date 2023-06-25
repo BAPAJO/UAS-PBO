@@ -9,8 +9,8 @@ package Bahan;
  * @author bangu
  */
 public class BeratKemasan{
-    static double kemasanTepung = 1000;
-    static double kemasanGula = 1000;
+    static double kemasanTepungTerigu = 1000;
+    static double kemasanGulaPasir = 1000;
     static double kemasanButter = 500;
     static double kemasanRagi = 11;
     static double kemasanSusuBubuk = 1000;
@@ -19,9 +19,9 @@ public class BeratKemasan{
     static double kemasanEsBatu = 1000;
     static double kemasanKeju = 250;
     static double kemasanCoklat = 500;
-    static double kemasanKrim = 500;
-    static double kemasanSelai = 500;
+    static double kemasanKrimVanilla = 500;
+    static double kemasanSelaiRedBean = 500;
     static double kemasanSosis = 1000;
     static double kemasanSmokedBeef = 1000;
-    static double kemasanBawang = 500;
+    static double kemasanBawangBombay = 500;
 }
