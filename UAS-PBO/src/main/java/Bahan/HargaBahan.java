@@ -8,7 +8,7 @@ package Bahan;
  *
  * @author bangu
  */
-public class HargaBahan extends Bahan{
+public class HargaBahan {
     static double hargaGula = 25000;
     static double hargaButter = 23000;
     static double hargaRagi = 5000;
