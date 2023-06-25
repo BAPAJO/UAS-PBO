@@ -4,15 +4,19 @@
  */
 package Bakery;
 
+import Bahan.HargaPerGram;
+
 /**
  *
  * @author Safiira Hashifah
  */
-public class ManisVar3 {
+public class ManisVar3 extends ResepManis {
     //attributes
     public double keju = 10;
     public double sosis = 10;
     
     //methods
-    public 
+    public double modalVar2(){
+        return (this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + this.modalAdonan();
+    }
 }

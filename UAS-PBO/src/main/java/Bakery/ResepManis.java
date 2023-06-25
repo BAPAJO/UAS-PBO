@@ -10,9 +10,9 @@ import Bahan.HargaPerGram;
  *
  * @author Safiira Hashifah
  */
-public class ResepManis {
+public class ResepManis extends HargaJual {
     public double TepungTerigu = 1000;
-    public double Gula = 150;
+    public double GulaPasir = 150;
     public double Butter = 150;
     public double Ragi = 20;
     public double SusuBubuk = 300;
@@ -26,7 +26,7 @@ public class ResepManis {
         return this.TepungTerigu / this.BeratPcs;
     }
     public double adonanGulaPasir() {
-        return this.Gula / this.BeratPcs;
+        return this.GulaPasir / this.BeratPcs;
     }
     public double adonanButter() {
         return this.Butter / this.BeratPcs;
@@ -48,5 +48,25 @@ public class ResepManis {
     }
     public double modalAdonan(){
         return (this.adonanTepungTerigu() * HargaPerGram.gramTepungTerigu() + (this.adonanGulaPasir()* HargaPerGram.gramGulaPasir()) + (this.adonanButter() * HargaPerGram.gramButter()) + (this.adonanRagi()) * HargaPerGram.gramRagi()) + (this.adonanSusuBubuk() * HargaPerGram.gramSusuBubuk()) + (this.adonanSusuCair() * HargaPerGram.gramSusuCair()) + (this.adonanTelur() * HargaPerGram.gramTelur()) + (this.adonanEsBatu() * HargaPerGram.gramEsBatu());
+    }
+
+    @Override
+    double varian1() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    double varian2() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    double varian3() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    String hargaJual() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

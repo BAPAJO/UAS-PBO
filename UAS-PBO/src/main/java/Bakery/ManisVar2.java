@@ -10,13 +10,13 @@ import Bahan.HargaPerGram;
  *
  * @author Safiira Hashifah
  */
-public class ManisVar2 {
+public class ManisVar2 extends ResepManis {
     //attribute
-    public double selairedBean = 10;
+    public double selaiRedBean = 10;
     public double krimVanilla = 5;
     
     //methods
     public double modalVar2(){
-        return (this.selairedBean * HargaPerGram.gramSelai()) + (this.krimVanilla * HargaPerGram.gramKrimVanilla) + this.modalAdonan();
+        return (this.selaiRedBean * HargaPerGram.gramSelaiRedBean()) + (this.krimVanilla * HargaPerGram.gramKrimVanilla()) + this.modalAdonan();
     }
 }
