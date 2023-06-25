@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Bakery;
-import Bahan;
+import Bahan.HargaPerGram;
 /**
  *
  * @author acer
@@ -11,5 +11,11 @@ import Bahan;
 public class TawarVar1 {
     //Attribut
     public double coklat = 80;
+    
+    
+    //methods
+    public void modalVar1(){
+        return (this.coklat * HargaPerGram.gramCoklat()) + modalTawar();
+    }
     
 }

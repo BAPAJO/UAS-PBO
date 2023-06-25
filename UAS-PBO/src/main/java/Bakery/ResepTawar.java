@@ -17,39 +17,31 @@ public class ResepTawar {
     public double SusuCair = 200;
     public double Telur = 70;
     public double EsBatu = 300;
-    public double Keju = 80;
-    public double Coklat = 80;
     public double BeratPcs = 400;
 
     //Method Adonan
-    public void adonanTepungTerigu() {
+    public double adonanTepungTerigu() {
         return this.TepungTerigu / this.BeratPcs;
     }
-    public void adonanGula() {
+    public double adonanGula() {
         return this.Gula / this.BeratPcs;
     }
-    public void adonanButter() {
+    public double adonanButter() {
         return this.Butter / this.BeratPcs;
     }
-    public void adonanRagi() {
+    public double adonanRagi() {
         return this.Ragi / this.BeratPcs;
     }
-    public void adonanSusuBubuk() {
+    public double adonanSusuBubuk() {
         return this.SusuBubuk / this.BeratPcs;
     }
-    public void adonanSusuCair() {
+    public double adonanSusuCair() {
         return this.SusuCair / this.BeratPcs;
     }
-    public void adonanTelur() {
+    public double adonanTelur() {
         return this.Telur / this.BeratPcs;
     }
-    public void adonanEsBatu() {
+    public double adonanEsBatu() {
         return this.EsBatu / this.BeratPcs;
-    }
-    public void adonanKeju() {
-        return this.Keju / this.BeratPcs;
-    }
-    public void adonanCoklat() {
-        return this.Coklat / this.BeratPcs;
     }
 }
