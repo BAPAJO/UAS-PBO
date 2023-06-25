@@ -10,10 +10,10 @@ package Bahan;
  */
 public class HargaPerGram {
      public static double gramTepungTerigu(){
-        return HargaBahan.hargaTepung / BeratKemasan.kemasanTepung;
+        return HargaBahan.hargaTepungTerigu / BeratKemasan.kemasanTepung;
     }
     public static double gramGulaPasir(){
-        return HargaBahan.hargaGula / BeratKemasan.kemasanGula;
+        return HargaBahan.hargaGulaPasir / BeratKemasan.kemasanGula;
     }
     public static double gramButter(){
         return HargaBahan.hargaButter / BeratKemasan.kemasanButter;
@@ -40,10 +40,10 @@ public class HargaPerGram {
         return HargaBahan.hargaCoklat / BeratKemasan.kemasanCoklat;
     }
     public static double gramKrim(){
-        return HargaBahan.hargaKrim / BeratKemasan.kemasanKrim;
+        return HargaBahan.hargaKrimVanilla / BeratKemasan.kemasanKrim;
     }
     public static double gramSelai(){
-        return HargaBahan.hargaSelai / BeratKemasan.kemasanSelai;
+        return HargaBahan.hargaSelaiRedBean / BeratKemasan.kemasanSelai;
     }
     public static double gramSosis(){
         return HargaBahan.hargaSosis / BeratKemasan.kemasanSosis;
@@ -52,6 +52,6 @@ public class HargaPerGram {
         return HargaBahan.hargaSmokedBeef / BeratKemasan.kemasanSmokedBeef;
     }
     public static double gramBawang(){
-        return HargaBahan.hargaBawang / BeratKemasan.kemasanBawang;
+        return HargaBahan.hargaBawangBombay / BeratKemasan.kemasanBawang;
     }
 }
