@@ -8,14 +8,14 @@ import Bahan.HargaPerGram;
  *
  * @author acer
  */
-public class TawarVar1 {
+public class TawarVar1 extends ResepTawar {
     //Attribut
     public double coklat = 80;
     
     
     //methods
-    public void modalVar1(){
-        return (this.coklat * HargaPerGram.gramCoklat()) + modalTawar();
+    public double modalVar1(){
+        return (this.coklat * HargaPerGram.gramCoklat()) + this.modalAdonan();
     }
     
 }

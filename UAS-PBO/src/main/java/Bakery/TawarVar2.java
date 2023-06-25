@@ -10,13 +10,13 @@ import Bahan.HargaPerGram;
  *
  * @author acer
  */
-public class TawarVar2 {
+public class TawarVar2 extends ResepTawar {
     //Attribut
     public double keju = 80;
     
     
     //methods
-    public void modalVar1(){
-        return (this.keju * HargaPerGram.gramKeju()) + modalTawar();
+    public double modalVar1(){
+        return (this.keju * HargaPerGram.gramKeju()) + this.modalAdonan();
     } 
 }

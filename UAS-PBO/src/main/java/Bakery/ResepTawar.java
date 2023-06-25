@@ -4,6 +4,8 @@
  */
 package Bakery;
 
+import Bahan.HargaPerGram;
+
 /**
  *
  * @author acer
@@ -23,7 +25,7 @@ public class ResepTawar {
     public double adonanTepungTerigu() {
         return this.TepungTerigu / this.BeratPcs;
     }
-    public double adonanGula() {
+    public double adonanGulaPasir() {
         return this.Gula / this.BeratPcs;
     }
     public double adonanButter() {
@@ -43,5 +45,9 @@ public class ResepTawar {
     }
     public double adonanEsBatu() {
         return this.EsBatu / this.BeratPcs;
+    } 
+    public double modalAdonan(){
+        return (this.adonanTepungTerigu()*HargaPerGram.gramTepungTerigu() + this.adonanGulaPasir()*HargaPerGram.gramGulaPasir() + this.adonanButter()*HargaPerGram.gramRagi() + this.adonanRagi()*HargaPerGram.gramRagi() + this.adonanSusuBubuk()*HargaPerGram.gramSusuBubuk() + this.adonanSusuCair()*HargaPerGram.gramSusuCair() + this.adonanTelur()*HargaPerGram.gramTelur() + this.adonanEsBatu()*HargaPerGram.gramEsBatu());
+      
     }
 }
