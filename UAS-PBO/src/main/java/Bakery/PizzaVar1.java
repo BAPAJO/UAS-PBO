@@ -4,10 +4,21 @@
  */
 package Bakery;
 
+import Bahan.HargaPerGram;
+
 /**
  *
  * @author Asus
  */
 public class PizzaVar1 {
+     //attributes
+    public double keju =  30;
+    public double sosis = 50;
+    public double smokedBeef = 50;
+    public double Bawang = 30;
     
+    //methods
+    public double modalVar2(){
+        return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.Bawang * HargaPerGram.gramBawang()) );
+    }
 }
