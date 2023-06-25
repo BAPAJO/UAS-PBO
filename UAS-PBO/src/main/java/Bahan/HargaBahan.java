@@ -9,7 +9,7 @@ package Bahan;
  * @author bangu
  */
 public class HargaBahan {
-    static double hargaGula = 25000;
+    static double hargaGulaPasir = 25000;
     static double hargaButter = 23000;
     static double hargaRagi = 5000;
     static double hargaSusuBubuk = 39000;
@@ -18,11 +18,11 @@ public class HargaBahan {
     static double hargaEsBatu = 2000;
     static double hargaKeju = 32000;
     static double hargaCoklat = 29000;
-    static double hargaKrim = 30000;
-    static double hargaSelai = 25000;
+    static double hargaKrimVanilla = 30000;
+    static double hargaSelaiRedBean = 25000;
     static double hargaSosis = 80000;
     static double hargaSmokedBeef = 90000;
-    static double hargaBawang = 40000;
-    static double hargaTepung;
+    static double hargaBawangBombay = 40000;
+    static double hargaTepungTerigu = 40000;
     
 }

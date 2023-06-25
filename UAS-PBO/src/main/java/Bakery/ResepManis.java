@@ -23,7 +23,7 @@ public class ResepManis {
     public double adonanTepungTerigu() {
         return this.TepungTerigu / this.BeratPcs;
     }
-    public double adonanGula() {
+    public double adonanGulaPasir() {
         return this.Gula / this.BeratPcs;
     }
     public double adonanButter() {

@@ -9,10 +9,10 @@ package Bahan;
  * @author bangu
  */
 public class HargaPerGram {
-     public static double gramTepung(){
+     public static double gramTepungTerigu(){
         return HargaBahan.hargaTepung / BeratKemasan.kemasanTepung;
     }
-    public static double gramGula(){
+    public static double gramGulaPasir(){
         return HargaBahan.hargaGula / BeratKemasan.kemasanGula;
     }
     public static double gramButter(){
