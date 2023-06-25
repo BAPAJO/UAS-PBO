@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Bakery;
-import Bahan.*/
+import Bahan.HargaPerGram;
 
 /**
  *
@@ -16,6 +16,6 @@ public class ManisVar1 implements Bahan {
     
     //methods
     public void modalVar1(){
-        return (this.keju * hargaPerGram.gramKeju) + (this.coklat * hargaPerGram.gramCoklat) + modalAdonan();
+        return (this.keju * HargaPerGram.gramKeju()) + (this.coklat * HargaPerGram.gramCoklat()) + modalAdonan();
     }
 }
