@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author acer
  */
-public class TawarVar2 extends ModalTawar {
+public class TawarVar2 extends ModalAdonan {
     //Attribut
     public double keju = 80;
     

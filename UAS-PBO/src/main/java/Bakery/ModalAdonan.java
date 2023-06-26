@@ -8,9 +8,9 @@ import Bahan.HargaPerGram;
 
 /**
  *
- * @author Asus
+ * @author Safiira Hashifah
  */
-public class ModalPizza extends ResepPizza {
+public class ModalAdonan extends ResepManis {
     public double modalAdonan(){
         return (this.adonanTepungTerigu() * HargaPerGram.gramTepungTerigu() + (this.adonanGulaPasir()* HargaPerGram.gramGulaPasir()) + (this.adonanButter() * HargaPerGram.gramButter()) + (this.adonanRagi()) * HargaPerGram.gramRagi()) + (this.adonanSusuBubuk() * HargaPerGram.gramSusuBubuk()) + (this.adonanSusuCair() * HargaPerGram.gramSusuCair()) + (this.adonanTelur() * HargaPerGram.gramTelur()) + (this.adonanEsBatu() * HargaPerGram.gramEsBatu());
     }

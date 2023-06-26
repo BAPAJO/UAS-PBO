@@ -8,7 +8,7 @@ import Bahan.HargaPerGram;
  *
  * @author acer
  */
-public class TawarVar1 extends ModalTawar {
+public class TawarVar1 extends ModalAdonan {
     //Attribut
     public double coklat = 80;
     
