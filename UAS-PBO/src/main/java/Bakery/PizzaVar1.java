@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author Asus
  */
-public class PizzaVar1 extends ModalAdonan {
+public class PizzaVar1 extends ModalPizza {
      //attributes
     public double keju =  30;
     public double sosis = 50;
