@@ -18,11 +18,11 @@ public class PizzaVar1 extends ModalPizza {
     public double bawangBombay = 30;
     
     //methods
-    public double modalVarPizza1(){
+    public double modalPizzaVar1(){
         return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.bawangBombay * HargaPerGram.gramBawangBombay()) + this.modalAdonan() );
     }
         //hitung harga jual varian per pcs
-    public double hargaVar1(){
-        return this.modalVarPizza1() * 140/100;
+    public double hargaPizzaVar1(){
+        return this.modalPizzaVar1() * 140/100;
     }
 }
