@@ -20,7 +20,7 @@ public class ManisVar3 extends ModalManis {
         return (this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + this.modalAdonanManis();
     }
     //hitung harga jual varian per pcs
-    public double hargaManisVar1(){
+    public double hargaManisVar3(){
         return this.modalManisVar3() * 140/100;
     }
 }

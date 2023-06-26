@@ -20,6 +20,13 @@ public class ResepTawar {
     public double Telur = 70;
     public double EsBatu = 300;
     public double BeratPcs = 400;
+    public double TotalBerat = 2065;
+    public double BeratAdonan = 400;
+    
+    //Method Roti Per Batch
+    public double tawarPerBatch(){
+        return this.TotalBerat / this.BeratAdonan;
+    }
 
     //Method Adonan
     public double adonanTepungTerigu() {

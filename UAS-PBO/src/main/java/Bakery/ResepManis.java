@@ -19,6 +19,13 @@ public class ResepManis {
     public double Telur = 80;
     public double EsBatu = 400;
     public double BeratPcs = 50;
+    public double TotalBerat = 2350;
+    public double BeratAdonan = 50;
+    
+    //methods roti per batch
+    public double manisPerBatch(){
+        return this.TotalBerat / this.BeratAdonan;
+    }
 
     //methods adonan per pcs
     public double adonanTepungTerigu() {

@@ -20,6 +20,13 @@ public class ResepPizza {
     public double Telur = 50;
     public double EsBatu = 300;
     public double BeratPcs = 190;
+    public double TotalBerat = 1950;
+    public double BeratAdonan = 190;
+    
+    //Method Roti Per Batch
+    public double pizzaPerBatch(){
+        return this.TotalBerat / this.BeratAdonan;
+    }
 
     //Method Adonan
     public double adonanTepungTerigu() {
