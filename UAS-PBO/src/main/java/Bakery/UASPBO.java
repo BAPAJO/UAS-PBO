@@ -54,7 +54,7 @@ public class UASPBO {
     public void output(){
         if (ordManisVarian1 > 0) {
             manis();
-            System.out.println("Harga roti manis varian 1 per pcs : " + manisVar1.hargaVar1());
+            System.out.println("Harga roti manis varian 1 per pcs : " + manisVar1.hargaManisVar1());
         }
         
     }
