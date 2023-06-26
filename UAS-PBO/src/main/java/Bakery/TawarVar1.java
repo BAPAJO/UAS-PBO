@@ -17,5 +17,9 @@ public class TawarVar1 extends ModalTawar {
     public double modalTawarVar1(){
         return (this.coklat * HargaPerGram.gramCoklat()) + this.modalAdonan();
     }
+    //hitung harga jual varian per pcs
+    public double hargaTawarVar1(){
+        return this.modalTawarVar1()* 140/100;
+    }
     
 }
