@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author Safiira Hashifah
  */
-public class ResepManis extends HargaJual {
+public class ResepManis {
     //attributes
     public double TepungTerigu = 1000;
     public double GulaPasir = 150;
