@@ -19,7 +19,7 @@ public class PizzaVar1 extends ModalPizza {
     
     //methods
     public double modalPizzaVar1(){
-        return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.bawangBombay * HargaPerGram.gramBawangBombay()) + this.modalAdonan() );
+        return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.bawangBombay * HargaPerGram.gramBawangBombay()) + this.modalAdonanPizza() );
     }
         //hitung harga jual varian per pcs
     public double hargaPizzaVar1(){
