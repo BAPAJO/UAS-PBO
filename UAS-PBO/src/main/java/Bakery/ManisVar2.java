@@ -19,4 +19,8 @@ public class ManisVar2 extends ModalManis {
     public double modalVar2(){
         return (this.selaiRedBean * HargaPerGram.gramSelaiRedBean()) + (this.krimVanilla * HargaPerGram.gramKrimVanilla()) + this.modalAdonan();
     }
+    //hitung harga jual varian per pcs
+    public double hargaVar1(){
+        return this.modalVar2() * 140/100;
+    }
 }
