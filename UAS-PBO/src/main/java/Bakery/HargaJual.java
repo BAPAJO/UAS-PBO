@@ -6,7 +6,7 @@ package Bakery;
 
 /**
  *
- * @author bangu
+ * @author Bagus
  */
 public abstract class HargaJual {
     // methods diisi dengan print(modal per varian x 140%)
