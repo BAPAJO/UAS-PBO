@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author Asus
  */
-public class PizzaVar1 {
+public class PizzaVar1 extends ResepPizza {
      //attributes
     public double keju =  30;
     public double sosis = 50;
@@ -19,6 +19,6 @@ public class PizzaVar1 {
     
     //methods
     public double modalVar2(){
-        return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.bawangBombay * HargaPerGram.gramBawangBombay()) );
+        return ((this.keju * HargaPerGram.gramKeju()) + (this.sosis * HargaPerGram.gramSosis()) + (this.smokedBeef * HargaPerGram.gramSmokedBeef()) + (this.bawangBombay * HargaPerGram.gramBawangBombay()) + this.modalAdonan() );
     }
 }
