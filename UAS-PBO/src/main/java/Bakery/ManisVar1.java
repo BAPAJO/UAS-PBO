@@ -15,7 +15,7 @@ public class ManisVar1 extends ResepManis {
     public double keju = 5;
     public double coklat = 10;
     
-    //methods
+    //methods 
     public double modalVar1(){
         return (this.keju * HargaPerGram.gramKeju()) + (this.coklat * HargaPerGram.gramCoklat() + this.modalAdonan());
     }

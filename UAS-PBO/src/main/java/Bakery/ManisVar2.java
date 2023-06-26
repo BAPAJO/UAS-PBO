@@ -11,7 +11,7 @@ import Bahan.HargaPerGram;
  * @author Safiira Hashifah
  */
 public class ManisVar2 extends ResepManis {
-    //attribute
+    //attributes
     public double selaiRedBean = 10;
     public double krimVanilla = 5;
     

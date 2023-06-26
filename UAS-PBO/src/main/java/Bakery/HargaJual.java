@@ -9,11 +9,8 @@ package Bakery;
  * @author bangu
  */
 public abstract class HargaJual {
-    // method
-    abstract double varian1();
-    abstract double varian2();
-    abstract double varian3();
-
-    // diisi dengan print(modal x 140%)
-    abstract String hargaJual();
+    // methods diisi dengan print(modal per varian x 140%)
+    abstract double hargaVar1();
+    abstract double hargaVar2();
+    abstract double hargaVar3();
 }
