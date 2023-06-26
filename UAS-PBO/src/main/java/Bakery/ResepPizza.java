@@ -12,16 +12,14 @@ import Bahan.HargaPerGram;
  */
 public class ResepPizza {
     public double TepungTerigu = 1000;
-    public double Gula = 125;
+    public double Gula = 100;
     public double Butter = 100;
     public double Ragi = 20;
-    public double SusuBubuk = 250;
-    public double SusuCair = 200;
-    public double Telur = 70;
+    public double SusuBubuk = 200;
+    public double SusuCair = 180;
+    public double Telur = 50;
     public double EsBatu = 300;
-    public double Keju = 80;
-    public double Coklat = 80;
-    public double BeratPcs = 400;
+    public double BeratPcs = 190;
 
     //Method Adonan
     public double adonanTepungTerigu() {
@@ -48,14 +46,6 @@ public class ResepPizza {
     public double adonanEsBatu() {
         return this.EsBatu / this.BeratPcs;
     }
-    public double adonanKeju() {
-        return this.Keju / this.BeratPcs;
-    }
-    public double adonanCoklat() {
-        return this.Coklat / this.BeratPcs;
-    }
-     public double modalAdonan(){
-        return (this.adonanTepungTerigu() * HargaPerGram.gramTepungTerigu() + (this.adonanGulaPasir()* HargaPerGram.gramGulaPasir()) + (this.adonanButter() * HargaPerGram.gramButter()) + (this.adonanRagi()) * HargaPerGram.gramRagi()) + (this.adonanSusuBubuk() * HargaPerGram.gramSusuBubuk()) + (this.adonanSusuCair() * HargaPerGram.gramSusuCair()) + (this.adonanTelur() * HargaPerGram.gramTelur()) + (this.adonanEsBatu() * HargaPerGram.gramEsBatu());
 }
-}
+
 
