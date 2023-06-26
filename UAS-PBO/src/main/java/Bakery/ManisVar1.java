@@ -10,7 +10,7 @@ import Bahan.HargaPerGram;
  *
  * @author Safiira Hashifah
  */
-public class ManisVar1 extends ModalAdonan {
+public class ManisVar1 extends ModalManis {
     //attributes
     public double keju = 5;
     public double coklat = 10;
