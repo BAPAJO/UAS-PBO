@@ -68,7 +68,7 @@ public class BahanDibutuhkan {
     public double selaiRedBeanDiperlukan(){
         return (bahanManisVar2.selaiRedBean * order.orderManisVar12());
     }
-    public double SosisDiperlukan(){
+    public double sosisDiperlukan(){
         return ((bahanManisVar3.sosis * order.orderManisVar13()) + (bahanPizzaVar1.sosis * order.orderPizzaVar11()));
     }
     public double smokedBeefDiperlukan(){

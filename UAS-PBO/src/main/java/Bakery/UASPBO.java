@@ -42,7 +42,9 @@ public class UASPBO {
     }
     
     public void input(){
-        System.out.println("**********\nORDERAN\n**********");
+        System.out.println("**********************************************");
+        System.out.println("                   ORDERAN                    ");
+        System.out.println("**********************************************");
         System.out.println("Roti manis  : ");
         System.out.print("    a. Varian 1 : ");
         ordManisVarian1 = scanner.nextInt();

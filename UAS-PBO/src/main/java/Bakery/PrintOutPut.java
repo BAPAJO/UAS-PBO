@@ -21,12 +21,12 @@ public class PrintOutPut {
     public void output(){
         printBahan();
         System.out.println("==============================================");
-        System.out.println("Harga roti manis varian 1 per pcs : " + Math.round(manisVar1.hargaManisVar1()));
-        System.out.println("Harga roti manis varian 2 per pcs : " + Math.round(manisVar2.hargaManisVar2()));
-        System.out.println("Harga roti manis varian 3 per pcs : " + Math.round(manisVar3.hargaManisVar3()));
-        System.out.println("Harga roti tawar varian 1 per pcs : " + Math.round(tawarVar1.hargaTawarVar1()));
-        System.out.println("Harga roti tawar varian 2 per pcs : " + Math.round(tawarVar2.hargaTawarVar2()));
-        System.out.println("Harga roti pizza varian 1 per pcs : " + Math.round(pizzaVar1.hargaPizzaVar1()));
+        System.out.println("Harga roti manis varian 1 per pcs : Rp" + Math.round(manisVar1.hargaManisVar1()));
+        System.out.println("Harga roti manis varian 2 per pcs : Rp" + Math.round(manisVar2.hargaManisVar2()));
+        System.out.println("Harga roti manis varian 3 per pcs : Rp" + Math.round(manisVar3.hargaManisVar3()));
+        System.out.println("Harga roti tawar varian 1 per pcs : Rp" + Math.round(tawarVar1.hargaTawarVar1()));
+        System.out.println("Harga roti tawar varian 2 per pcs : Rp" + Math.round(tawarVar2.hargaTawarVar2()));
+        System.out.println("Harga roti pizza varian 1 per pcs : Rp" + Math.round(pizzaVar1.hargaPizzaVar1()));
     }
     
     public void printBahan(){
@@ -44,7 +44,7 @@ public class PrintOutPut {
         System.out.println("    10. Coklat           : " + Math.round(diperlukan.coklatDiperlukan()) + " gram");
         System.out.println("    11. Krim Vanilla     : " + Math.round(diperlukan.krimVanillaDiperlukan()) + " gram");
         System.out.println("    12. Selai Red Bean   : " + Math.round(diperlukan.selaiRedBeanDiperlukan()) + " gram");
-        System.out.println("    13. Sosis            : " + Math.round(diperlukan.SosisDiperlukan()) + " gram");
+        System.out.println("    13. Sosis            : " + Math.round(diperlukan.sosisDiperlukan()) + " gram");
         System.out.println("    14. Smoked Beef      : " + Math.round(diperlukan.smokedBeefDiperlukan()) + " gram");
         System.out.println("    15. Bawang Bombay    : " + Math.round(diperlukan.bawangBombayDiperlukan()) + " gram");
     }
